@@ -1,0 +1,63 @@
+.glass {
+  background: rgba(255, 255, 255, 0.56);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #4747470b;
+  backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-width: 4px;
+  border-color: #f9fafb; /* Gray-50 */
+  flex-shrink: 0;
+  height: 75%; /* 3/4 */
+  width: 30%; /* Custom width */
+  min-width: max-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 1.5rem; /* Rounded-3xl */
+}
+
+.profile_img {
+  border-width: 4px;
+  border-color: #d1d5db; /* border-gray-100 */
+  width: 135px;
+  height: 135px; /* Set height to match width */
+  border-radius: 50%; /* Make it a circle */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  cursor: pointer;
+}
+
+
+.profile-img:hover {
+  border-color: #e5e7eb; /* border-gray-200 */
+}
+
+.textbox {
+  border-width: 0;
+  padding: 1rem 1.25rem; /* px-5 py-4 */
+  border-radius: 0.75rem; /* rounded-xl */
+  width: 75%; /* w-3/4 */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  font-size: 1.25rem; /* text-lg */
+  outline: none; /* focus:outline-none */
+}
+
+.btn {
+  border-width: 1px;
+  background-color: #4f46e5; /* bg-indigo-500 */
+  width: 75%; /* w-3/4 */
+  padding: 1rem 1.25rem; /* py-4 */
+  border-radius: 0.75rem; /* rounded-lg */
+  color: #f3f4f6; /* text-gray-50 */
+  font-size: 1.5rem; /* text-xl */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  text-align: center; /* text-center */
+}
+
+.btn:hover{
+  background-color: #ff6a6a;
+}
+
+input[type='file']{
+  display: none;
+}
